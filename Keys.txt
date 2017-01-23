@@ -1,0 +1,2 @@
+apiurl = "https://ussouthcentral.services.azureml.net/workspaces/4a00eed9da5240afba0fc4041cf8a076/services/8656bc023c014a19a1bd44695aee48e7/execute?api-version=2.0&format=swagger";//sc.nextLine();
+            apikey = "5P5ReV5ALQU0eK4UsxxxUyH028FkBYoPcXX2SGsnDqxRvzpLmPOBtoqI6hslsHLiCRvCNGJ88K3irADccGfcDw==";//sc.nextLine();
