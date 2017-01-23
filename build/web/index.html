@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bankruptcy Prediction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 align="center">Bankruptcy Prediction</h1>
+        <div align="center">
+            <form method="post" action="apiCall">
+                Industrial Risk:<input type="text" name="Industrial_Risk" value="" /><br/><br/>
+                Management Risk:<input type="text" name="Management_Risk" value="" /><br/><br/>
+                Financial Flexibility:<input type="text" name="Financial_Flexibility" value="" /><br/><br/>
+                Competiteveness:<input type="text" name="Competiteveness" value="" /><br/><br/>
+                Credibility:<input type="text" name="Credibility" value="" /><br/><br/>
+                Operating Risk:<input type="text" name="Operating_Risk" value="" /><br/><br/>
+                <input type="submit" value="Predict" align="center"/>
+            </form>
+        </div>  
+        <br/><br/><br/>
+        NOTE: Please Input values of &nbsp;0,1 or 2 for the above fields. All fields are MANDATORY.
+        <br/><br/>
+        Key:- <br/>0:&nbsp;&nbsp; LOW<br/>1:&nbsp;&nbsp; MEDIUM<br/>2:&nbsp;&nbsp; HIGH
+
+    </body>
+</html>
